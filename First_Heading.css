@@ -1,0 +1,21 @@
+#root{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    margin: auto;
+     color: blue;
+     text-align: center;
+}
+
+.MainText{
+    margin: auto;
+    text-align: center;
+}
+.PolarBearPicture{
+    margin-left: 25px;
+    size: 10px;
+}
