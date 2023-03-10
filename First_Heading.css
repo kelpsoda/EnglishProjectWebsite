@@ -1,21 +1,33 @@
-#root{
-    padding: 2rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 h1 {
     margin: auto;
-     color: blue;
-     text-align: center;
+    position: static;
+    left: 50%;
+    color: blue;
+    
 }
-
-.MainText{
-    margin: auto;
+.polar-bear-picture{
+    max-width: 630;
+    max-height: 315;
+    width: auto;
+    height: auto;
+    margin: 10px;
+    float: left;
+    
+}
+button{
+    background-color: #4CAF50;
+    float: right;
+    border: 1px;
+    
+    color: white;
+    padding: 10px 16px;
     text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
-.PolarBearPicture{
-    margin-left: 25px;
-    size: 10px;
+button.main-button:hover{
+    background-color: red;
 }
