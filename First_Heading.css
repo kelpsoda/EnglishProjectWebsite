@@ -1,42 +1,48 @@
-h1 {
-    margin: auto;
+body{
+    background-color: #dbd3d3;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+ul {
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    overflow: hidden;
+    background: url(Climate-change-pics/Gas-polution-picture.jpg) no-repeat bottom left;
+}
+li{
+    display: block;
+    font-size: x-large;
     text-align: center;
-    color: blue;
-}
-.Paragraph-1{
-    margin: 10px;
-    padding: 10px;
-    text-align: left;
-    text-align: top;
-}
-
-
-/* .Fossil-fuel{
-    position: relative;
-    z-index: -1;
     
-}
-
-.polar-bear{
-    max-width: 630;
-    max-height: 315;
-    width: auto;
-    height: auto;
-    margin: 10px;
-    float: left;
-    
-}
-button{
-    background-color: #4CAF50;
-    float: right;
-    border: 1px;
     color: white;
-    padding: 10px 16px;
-    text-align: center;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding: 14px 16px;
     text-decoration: none;
-    display: inline;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+    float: right;
 }
-*/
+li:hover{
+    background-color: #9e9e9e;
+}
+
+
+
+.First-paragraph img {
+    margin: 25px;
+    border-radius: 1%;
+    width: 900;
+    height: auto;
+    float: right;
+}
+
+.First-paragraph {
+    margin: 10px 10px;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+
