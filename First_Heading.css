@@ -1,11 +1,23 @@
 h1 {
     margin: auto;
-    position: static;
-    left: 50%;
+    text-align: center;
     color: blue;
+}
+.Paragraph-1{
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+    text-align: top;
+}
+
+
+/* .Fossil-fuel{
+    position: relative;
+    z-index: -1;
     
 }
-.polar-bear-picture{
+
+.polar-bear{
     max-width: 630;
     max-height: 315;
     width: auto;
@@ -18,7 +30,6 @@ button{
     background-color: #4CAF50;
     float: right;
     border: 1px;
-    
     color: white;
     padding: 10px 16px;
     text-align: center;
@@ -28,6 +39,4 @@ button{
     margin: 4px 2px;
     cursor: pointer;
 }
-button.main-button:hover{
-    background-color: red;
-}
+*/
