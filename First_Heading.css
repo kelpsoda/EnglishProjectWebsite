@@ -1,3 +1,6 @@
+
+
+
 body{
     background-color: #dbd3d3;
     margin: 0;
@@ -35,15 +38,11 @@ li:hover{
     line-height: 2rem;
     font-size: x-large;
 }
-
-.First-paragraph img {
-    margin: 1rem;
-    border-radius: 1%;
-
-    width: 37rem;
-    height: auto;
-
-    float: right;
+.Polar-bear-image a {
+    margin: inherit;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.7rem;
 }
 .Second-paragraph {
     margin-left: 1rem;
