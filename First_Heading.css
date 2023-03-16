@@ -11,15 +11,15 @@ html {
   }
   
   .navbar {
-    position: fixed;
+  
     list-style-type: none;
     margin: 0;
     padding: 0;
     height: 30rem;
     width: 100%;
     overflow: hidden;
-    background: url(Climate-change-pics/Gas-polution-picture.jpg) no-repeat bottom left;
-    z-index: -1;
+    background: url(Climate-change-pics/Gas-polution-picture.jpg) no-repeat bottom
+      left
   }
   .navbar .dropdown {
     display: block;
@@ -42,7 +42,7 @@ html {
     .dropdown-content {
       display: none;
       position: absolute;
-      
+      background-color: #f9f9f9;
       width: 100%;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       text-align: left;
@@ -52,16 +52,12 @@ html {
     }
     
     .dropdown:hover .dropdown-content {
-        line-height: 3rem;
-        display: block;
+      display: block;
   
     }
   
-  div.First-heading{
-    position: relative;
-    
-  }
-  .First-paragraph {
+  
+  .First-heading {
     margin-left: 3rem;
     margin-left: 3rem;
     margin-top: 1rem;
@@ -83,17 +79,19 @@ html {
     text-align: center;
   }
   
+.First-paragraph{
+    margin-left: 3rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1em;
+    line-height: 3rem;
+    font-size: x-large;
+}
+
+
   /* 
-  div.First-heading, div.First-paragraph, div.Second-paragraph, div.Third-paragraph, div.Fourth-paragraph{
-      margin-left: 3rem;
-      margin-left: 3rem;
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-      padding: 1em;
-      line-height: 3rem;
-      font-size: x-large;
-      
-  }
+ 
   .First-paragraph h2{
       text-align: center;
   }
