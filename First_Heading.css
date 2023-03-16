@@ -87,6 +87,12 @@ html {
     line-height: 3rem;
     font-size: x-large;
 }
+.First-paragraph p1, .Second-paragraph p1, .Third-paragraph p1, .Fourth-paragraph p1{
+    float: left;
+}
+.First-paragraph p2, .Second-paragraph p2, .Third-paragraph p2, .Fourth-paragraph p2{
+    float: right;
+}
 .Work-cited ul{
     margin: 1rem 3rem 1rem 3rem;
     text-align: left;
