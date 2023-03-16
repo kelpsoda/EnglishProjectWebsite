@@ -79,8 +79,7 @@ html {
     text-align: center;
   }
   
-.First-paragraph{
-    margin-left: 3rem;
+.First-paragraph, .Second-paragraph, .Third-paragraph, .Fourth-paragraph{
     margin-left: 3rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -88,7 +87,12 @@ html {
     line-height: 3rem;
     font-size: x-large;
 }
-
+.Work-cited ul{
+    margin: 1rem 3rem 1rem 3rem;
+    text-align: left;
+    line-height: 3rem;
+    font-size: large;
+}
 
   /* 
  
