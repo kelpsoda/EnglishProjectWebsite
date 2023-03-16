@@ -3,6 +3,7 @@ html {
   }
   body {
     overflow-x: hidden;
+    background-color: #3AAFA9;
   }
   *,
   *:before,
@@ -22,7 +23,8 @@ html {
       left
   }
   .navbar .dropdown {
-    display: block;
+    display: inline-block;
+    position: relative;
     font-size: x-large;
     text-align: center;
     background-color: transparent;
@@ -56,7 +58,6 @@ html {
   
     }
   
-  
   .First-heading {
     margin-left: 3rem;
     margin-left: 3rem;
@@ -65,21 +66,12 @@ html {
     padding: 1em;
     line-height: 3rem;
     font-size: x-large;
-    background-color: white;
   }
-  .polar-bear-picture {
-    width: 37rem;
-    height: auto;
-    margin-left: 1rem;
-    margin-right: 3rem;
-    margin-top: 1rem;
-    border-radius: 1%;
-    z-index: 0;
-    float: right;
-    text-align: center;
-  }
-  
+
 .First-paragraph, .Second-paragraph, .Third-paragraph, .Fourth-paragraph{
+    display: inline-block;
+    position: relative;
+    min-height: fit-content;
     margin-left: 3rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -87,18 +79,30 @@ html {
     line-height: 3rem;
     font-size: x-large;
 }
-.First-paragraph p1, .Second-paragraph p1, .Third-paragraph p1, .Fourth-paragraph p1{
-    float: left;
-}
-.First-paragraph p2, .Second-paragraph p2, .Third-paragraph p2, .Fourth-paragraph p2{
-    float: right;
-}
+
 .Work-cited ul{
     margin: 1rem 3rem 1rem 3rem;
     text-align: left;
     line-height: 3rem;
     font-size: large;
 }
+.polar-bear-picture {
+    width: 37rem;
+    height: auto;
+    margin: 1rem 1rem 0rem 3rem;
+    border-radius: 1%;
+    float: right;
+    text-align: center;
+  }
+  .greenhouse-gas-graph
+  {
+    width: 37rem;
+    height: auto;
+    margin: 1rem;
+    border-radius: 1%;
+    float: left;
+  }
+
 
   /* 
  
