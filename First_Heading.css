@@ -94,7 +94,7 @@ html {
     float: right;
     text-align: center;
   }
-  .greenhouse-gas-graph
+  .greenhouse-gas-graph, .powerplant-picture
   {
     width: 37rem;
     height: auto;
